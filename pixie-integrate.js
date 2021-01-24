@@ -277,7 +277,7 @@
                 callback && callback();
             };
 
-            this.frame.src = this.getPath()+'index.html';
+            this.frame.src = this.getPath()+'home.html';
 
             if ( ! _pixie.params.noManualClose) {
                 document.addEventListener('click', function(e) {
